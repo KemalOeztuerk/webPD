@@ -9,7 +9,7 @@ class Audio(db.Model):
     file_path: str = db.Column(db.String(255))
     length: int = db.Column(db.Integer)
 
-    def __init__(self, name, bpm,file_path,length):
+    def __init__(self, name, bpm, file_path, length):
         self.name = name
         self.bpm = bpm
         self.file_path = "filepath/id"
